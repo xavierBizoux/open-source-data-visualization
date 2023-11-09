@@ -76,8 +76,8 @@ def on_graph_click(clickData):
             dbc.CardHeader(
                 dbc.Row(
                     [
-                        dbc.Col(html.H3(make), width=6),
-                        dbc.Col(html.H3(model), width=6),
+                        dbc.Col(html.H3(make), width=4),
+                        dbc.Col(html.H3(model), width=8),
                     ]
                 )
             ),
@@ -111,8 +111,8 @@ def score_data(clickData):
                 dbc.CardHeader(
                     dbc.Row(
                         [
-                            dbc.Col(html.H3(make), width=6),
-                            dbc.Col(html.H3(model), width=6),
+                            dbc.Col(html.H3(make), width=4),
+                            dbc.Col(html.H3(model), width=8),
                         ]
                     )
                 ),
